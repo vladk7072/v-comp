@@ -1,0 +1,11 @@
+
+body{
+  @extend %roboto-400;
+  color: $dark;
+}
+
+.container{
+  max-width: 1550px;
+  padding: 0 10px;
+  margin: 0 auto;
+}

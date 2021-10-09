@@ -1,15 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>v-comp kravchenko</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
-  
 
-  
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__left-box">
+          <button class="header__btn">
+            <span></span>
+          </button>
+          <nav class="header__menu">
+            <ul class="header__menu-items">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Акции</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Кредит</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Оплата и доставка</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Помощь</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Скупка Б/У</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__user-box">
+          <div class="header__user-lg">
+            <a class="header__user-btn header__user-btn--active" href="#">RU</a>
+            <span>/</span>
+            <a class="header__user-btn" href="#">UA</a>
+          </div>
+          <a class="header__user-icon" href="#">
+            <img class="header__user-img" src="images/header/user-icon.svg" alt="кабинет пользователя">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="top">
+    <div class="container">
+
+      <div class="top__wrapper">
+
+        <picture class="top__picture">
+          <img class="top__img" src="images/top/logo.svg" alt="логотип">
+        </picture>
+        <button class="top__btn">КАТАЛОГ ТОВАРОВ</button>
+
+        <form class="top__form" action="#">
+          <input class="top__form-input" type="text" placeholder="Поиск">
+          <input class="top__form-search" type="submit" value="">
+        </form>
+
+        <div class="top__tel-wrapper">
+          <a class="top__tel" href="tel:0500658796">050 065 87 96</a>
+          <div class="top__tel-div"></div>
+        </div>
+
+        <div class="top__decor"></div>
+
+        <div class="top__box">
+          <a class="top__box-item top__box-compare" href="#">
+            <img class="top__box-img" src="images/top/compare-icon.svg" alt="сравнить">
+          </a>
+          <a class="top__box-item top__box-like" href="#">
+            <img class="top__box-img" src="images/top/like-icon.svg" alt="нравиться">
+          </a>
+          <a class="top__box-item top__box-basket" href="#">
+            <img class="top__box-img" src="images/top/basket-icon.svg" alt="корзина">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
   <script src="js/main.min.js"></script>
 </body>
+
 </html>
